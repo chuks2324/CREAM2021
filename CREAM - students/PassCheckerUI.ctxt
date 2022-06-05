@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PassCheckerUI
+comment0.text=\r\n\ Create\ and\ user\ interface\ to\ create\ a\ pass\ and\ perform\ certain\ operations\ on\ it.\r\n\r\n\ @author\ (Chukwudi\ Amushie)\r\n\ @version\ (09/04/2021)\r\n
+comment1.params=
+comment1.target=void\ passCoder()
+comment2.params=
+comment2.target=int\ getOption()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

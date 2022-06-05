@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=RoomTester
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ roomTester\ here.\r\n\r\n\ @author\ (Chukwudi\ Amushie)\r\n\ @version\ (19/04/2021)\r\n
+comment1.params=
+comment1.target=void\ doTest()
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+numComments=2

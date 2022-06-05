@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\r\n\ A\ door\ provides\ a\ one-way\ connection\ between\ two\ rooms.\ It\r\n\ has\ a\ Door\ number\ and\ information\ about\ both\ the\ "from"\ and\r\n\ the\ "to"\ room\r\n\ \r\n\ @author\ (Chukwudi\ Amushie)\ \r\n\ @version\ (12/04/2021)\r\n
+comment1.params=doorNum\ leadTo\ awayFrom
+comment1.target=Door(int,\ Room,\ Room)
+comment2.params=
+comment2.target=int\ getDoorNum()
+comment3.params=
+comment3.target=Room\ getRoomLeadsTo()
+comment4.params=
+comment4.target=Room\ getRoomAwayFrom()
+comment5.params=p
+comment5.target=boolean\ canAccess(Pass)
+comment5.text=Checks\ if\ a\ pass\ can\ enter\ a\ room\r\n\ If\ the\ room\ danger\ rating\ is\ less\ or\ equal\ to\ the\ pass\ prtection\ rating\r\n\ and\ if\ hours\ left\ of\ the\ pass\ is\ greater\ or\ equal\ to\ the\ min\ hours\ of\ the\ room\r\n\ and\ if\ the\ room\ is\ not\ full,\ method\ return\ true\r\n\ i.e\ pass\ can\ enter\ room.\r\nInput\ Parameter\ p\ is\ the\ Pass\ object*
+comment6.params=p
+comment6.target=java.lang.String\ passMovement(Pass)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

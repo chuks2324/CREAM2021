@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PassTester
+comment0.text=\r\n\ Test\ result\ of\ methods\ written\ for\ Pass\ objects.\ Expected\ answers\ after\ --\ symbol\r\n\r\n\ @author\ (Chukwudi\ Amushie)\r\n\ @version\ (09/04/2021)\r\n
+comment1.params=
+comment1.target=void\ PassTester()
+numComments=2

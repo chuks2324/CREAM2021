@@ -1,0 +1,40 @@
+#BlueJ class context
+comment0.target=CREAM
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ CREAM\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ Returns\ all\ of\ the\ details\ of\ all\ rooms\ including\ the\ passes\r\n\ currently\ in\ each\ room,\ or\ "No\ passes"\r\n\ @return\ all\ of\ the\ details\ of\ all\ rooms\ including\ location\ \r\n\ of\ all\ passes\ currently\ in\ each\ room,\ or\ "No\ passes"\ \r\n
+comment10.params=id
+comment10.target=void\ resetPass(int)
+comment10.text=\ Resets\ one\ passes\:\ moves\ to\ 0,\ available\ hours\ left\ to\ allowable\ hours\ \ \r\n\ @param\ id\ of\ the\ pass\r\n
+comment11.params=id
+comment11.target=void\ moveOutside(int)
+comment11.text=\ Moves\ a\ pass\ directly\ back\ to\ the\ Outside\ without\ affecting\ data\r\n\ \ and\ not\ using\ existing\ doors\r\n
+comment12.params=
+comment12.target=void\ evacuateAll()
+comment12.text=\ In\ an\ emergency,\ evacuates\ all\ passes\ directly\ back\ to\ the\ Outside\ without\ \r\n\ affecting\ information\ and\ not\ using\ existing\ doors\r\n
+comment2.params=
+comment2.target=java.lang.String\ getAllPassesInAllRooms()
+comment2.text=Returns\ a\ String\ representation\ of\ all\ the\ passes\ in\ all\ rooms\r\n\ @return\ a\ String\ representation\ of\ all\ passes\ in\ all\ rooms,\ room\ code\r\n\ and\ name\ should\ be\ included\ at\ the\ start\ of\ the\ list\r\n
+comment3.params=ps
+comment3.target=int\ findPass(int)
+comment3.text=Returns\ the\ name\ of\ the\ room\ which\ contains\ the\ specified\ pass\ or\ null\r\n\ @param\ ps\ -\ the\ specified\ pass\r\n\ @return\ the\ number\ of\ the\ Room\ which\ contains\ the\ pass,\ or\ -1\r\n
+comment4.params=rm
+comment4.target=int\ getRoomNo(java.lang.String)
+comment4.text=\ Given\ the\ name\ of\ a\ room,\ returns\ the\ room\ code\r\n\ or\ null\ if\ room\ does\ not\ exist\r\n\ @param\ name\ of\ room\r\n\ @return\ number\ of\ room,\ or\ -1\ if\ the\ room\ does\ not\ exist\r\n
+comment5.params=rmNo
+comment5.target=java.lang.String\ getAllPassesInRoom(int)
+comment5.text=Returns\ a\ String\ representation\ of\ all\ the\ passes\ in\ specified\ room\r\n\ @roomCode\ the\ room\ code\r\n\ @return\ a\ String\ representation\ of\ all\ passes\ in\ specified\ room,\ or\r\n\ "No\ such\ room"\r\n
+comment6.params=pNo
+comment6.target=java.lang.String\ showPass(int)
+comment6.text=\ Returns\ a\ String\ with\ all\ of\ the\ details\ of\ a\ Pass\r\n\ @param\ passNo\ is\ the\ pass\ number\r\n\ @return\ all\ details\ of\ the\ Pass,\ or\ "No\ such\ Pass"\r\n
+comment7.params=psId\ doorNo
+comment7.target=boolean\ canMove(int,\ int)
+comment7.text=Returns\ true\ if\ a\ Pass\ is\ allowed\ to\ move\ using\ the\ door,\ false\ otherwise\r\n\ A\ move\ can\ be\ made\ if\:\ \ \r\n\ the\ protection\ rating\ of\ the\ pass\ \ >\=\ the\ danger\ rating\ of\ the\ destination\ room\r\n\ AND\ the\ destination\ room\ is\ not\ full\r\n\ AND\ the\ pass\ has\ hours\ left\ >\=\ limit\ of\ the\ destination\ room\r\n\ AND\ the\ pass\ is\ currently\ in\ the\ source\ room\r\n\ AND\ the\ pass\ id\ is\ for\ a\ pass\ in\ the\ system\r\n\ AND\ the\ door\ number\ is\ the\ number\ for\ a\ door\ in\ the\ system\r\n\ @param\ psId\ is\ the\ id\ of\ the\ pass\ requesting\ the\ move\r\n\ @param\ doorNo\ is\ the\ number\ of\ the\ door\ through\ which\ the\ pass\ wants\ to\ move\r\n\ @return\ true\ if\ the\ pass\ is\ allowed\ in\ the\ move,\ false\ otherwise\ \r\n
+comment8.params=psId\ doorNo
+comment8.target=java.lang.String\ move(int,\ int)
+comment8.text=Returns\ the\ result\ of\ a\ pass\ requesting\ to\ move\ by\ Door.\r\n\ A\ move\ will\ be\ successful\ if\:\ \ \r\n\ the\ protection\ rating\ of\ the\ pass\ \ >\=\ the\ danger\ rating\ of\ the\ destination\ room\r\n\ AND\ the\ destination\ room\ is\ not\ full\r\n\ AND\ the\ pass\ has\ sufficient\ hours\ left\ >\=\ limit\ of\ the\ destination\ room\r\n\ AND\ the\ pass\ is\ currently\ in\ the\ source\ room\r\n\ AND\ the\ pass\ id\ is\ for\ a\ pass\ in\ the\ system\r\n\ AND\ the\ door\ number\ is\ the\ number\ for\ a\ door\ in\ the\ system\r\n\ If\ the\ move\ can\ be\ made,\ the\ pass\ information\ is\ removed\ from\ the\ source\r\n\ room,\ added\ to\ the\ destination\ room\ and\ a\ suitable\ message\ returned.\r\n\ If\ move\ cannot\ be\ made,\ the\ state\ of\ the\ system\ remains\ unchanged\r\n\ and\ a\ message\ specifying\ the\ reason\ is\ returned.\r\n\ @param\ psId\ is\ the\ id\ of\ the\ pass\ requesting\ the\ move\r\n\ @param\ doorNo\ is\ the\ number\ of\ the\ door\ through\ which\ the\ pass\ wants\ to\ move\r\n\ @return\ a\ String\ giving\ the\ result\ of\ the\ request\ \r\n
+comment9.params=
+comment9.target=void\ resetAllPasses()
+comment9.text=\ Resets\ all\ passes\ \r\n
+numComments=13
